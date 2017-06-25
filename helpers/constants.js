@@ -8,11 +8,11 @@ module.exports = {
 	confirmationLength: 77,
 	epochTime: new Date(Date.UTC(2017, 2, 21, 13, 0, 0, 0)),
 	fees:{
-		send: 10000000,
-		vote: 100000000,
-		secondsignature: 500000000,
-		delegate: 2500000000,
-		multisignature: 500000000
+		send: 100000,
+		vote: 1000000,
+		secondsignature: 5000000,
+		delegate: 25000000,
+		multisignature: 5000000
 	},
 	feeStart: 1,
 	feeStartVolume: 10000 * 100000000,
